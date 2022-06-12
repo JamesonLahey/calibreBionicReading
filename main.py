@@ -107,6 +107,7 @@ class DemoTool(Tool):
                     if (parentTag == "style" 
                     or parentTag == "title" 
                     or parentTag == "meta" 
+                    or parentTag == "span"     
                     or parentTag == "link"):
                         continue # dont mess with header stuff
 
